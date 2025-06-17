@@ -1,0 +1,37 @@
+{
+  "info": {
+    "name": "Sample Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Sample Request",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+          "protocol": "https",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "get"
+          ],
+          "query": [
+            {
+              "key": "foo1",
+              "value": "bar1"
+            },
+            {
+              "key": "foo2",
+              "value": "bar2"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
