@@ -19,10 +19,10 @@ let transporter = nodemailer.createTransport({
 });
 
 let mailOptions = {
-  from: 'harishsanjay0929@gmail.com',
-  to: 'harishsanjaya0929@gmail.com',
-  subject: 'Span Technology Services API Newman Automated Test Report',
-  text: 'Dear User'
+  from: 'harishsanjay.a@spantechnologyservices.com',
+  to: 'dharaneesh.v@spantechnologyservices.com',
+  subject: '🚀 Automated Newman Test Report',
+  text: 'Hi, please find the latest Postman test report attached.',
   attachments: [
     {
       filename: 'report.html',
