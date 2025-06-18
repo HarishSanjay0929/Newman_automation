@@ -22,12 +22,7 @@ let mailOptions = {
   from: 'harishsanjay0929@gmail.com',
   to: 'harishsanjaya0929@gmail.com',
   subject: 'Span Technology Services API Newman Automated Test Report',
-  text: 'Dear User,
-
-   Please find the attached test report for your review. Let me know if you have any questions or need further information.
-   
-  Best regards,
-   Harish Sanjay A',
+  text: 'Dear User'
   attachments: [
     {
       filename: 'report.html',
